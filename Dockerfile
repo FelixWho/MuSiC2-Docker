@@ -40,4 +40,5 @@ WORKDIR /tmp/MuSiC2-0.2
 # Echo MuSiC2 info
 RUN music2 help | cat
 
+# Install extras such as vim
 RUN apt-get update && apt-get install -y vim
